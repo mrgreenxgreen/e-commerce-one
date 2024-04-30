@@ -9,7 +9,7 @@ const Shopping = () => {
   return (
     <div className='p-2 h-5/6 bg-red-200 flex justify-center gap-2'>
       <Categories />
-      <div className='p-2 bg-green-300 overflow-auto flex flex-col' style={{ width: '1024px', height: '85vh', resize:'horizontal'}}>
+      <div className='p-2 bg-green-300 overflow-auto flex flex-col' style={{ width: '1024px', height: '90vh', resize:'horizontal'}}>
         <Outlet />
       </div>
       <Details/>
